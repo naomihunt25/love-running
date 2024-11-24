@@ -26,7 +26,9 @@
             <h1 id="logo">Love Running</h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-burger"></i></label>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-solid fa-bars"></i>
+        </label>
         <nav>
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
@@ -39,8 +41,8 @@
     <!-- Main content -->
     <main>
         <section id="signup">
-            <form id ="signup-form" action="https://formdump.codeinstitute.net" method="POST">
-                <h1><i class="fa-solid fa-heart-pulse"></i>Let's get you signed up!</h1>
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2><i class="fa-solid fa-heartbeat"></i> Let's get you signed up!</h2>
                 <label for="first-name">First Name</label>
                 <input type="text" name="first_name" id="first-name" class="text-input" required>
                 <br>
@@ -50,22 +52,20 @@
                 <label for="email-address">Email Address</label>
                 <input type="email" name="email_address" id="email-address" class="text-input" required>
                 <br>
-
                 <div class="radio-buttons">
                     <div>
                         <label for="road">Road</label>
                         <input type="radio" name="running_preference" id="road" value="road" required checked>
                     </div>
                     <div>
-                        <label for="road">Trail</label>
-                        <input type="radio" name="running_preference" id="trail" value="trail" required checked>
+                        <label for="trail">Trail</label>
+                        <input type="radio" name="running_preference" id="trail" value="trail" required>
                     </div>
-                    <div></div>
-                        <label for="road">Both</label>
-                        <input type="radio" name="running_preference" id="both" value="both" required checked>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" name="running_preference" id="both" value="both" required>
                     </div>
                 </div>
-    
                 <button type="submit" class="join-button">Let's Run!</button>
             </form>
         </section>
@@ -74,26 +74,31 @@
     <!-- Footer -->
     <footer>
         <ul id="social-networks">
-            <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)">
+                    <i class="fa-brands fa-facebook"></i></a>
             </li>
-            <li><a href="https://www.twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i
-                        class="fa-brands fa-square-twitter"></i></a>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)">
+                    <i class="fa-brands fa-twitter-square"></i></a>
             </li>
-            <li><a href="https://www.youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)"><i
-                        class="fa-brands fa-square-youtube"></i></a>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)">
+                    <i class="fa-brands fa-youtube-square"></i></a>
             </li>
-            <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i
-                        class="fa-brands fa-instagram"></i></a>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)">
+                    <i class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
     </footer>
 
     <!-- Font Awesome kit -->
-    <script src="https://kit.fontawesome.com/a0ab40b5eb.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
